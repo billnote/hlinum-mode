@@ -42,8 +42,10 @@
 (require 'cl-lib)
 
 (defface linum-highlight-face
-    '((t (:inherit default :foreground "black"
-          :background "gray")))
+  `((t :inherit linum
+       :foreground "goldenrod"
+       :weight bold
+       ))
   "Face for highlighting current line"
   :group 'linum)
 
